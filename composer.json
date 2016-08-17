@@ -1,0 +1,25 @@
+{
+    "name": "geekhub-php/exam",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/geekhub-php/certificationy-cli"
+        }
+    ],
+    "require": {
+        "certificationy/certificationy-cli": "master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serhii Polishchuk",
+            "email": "spolishchuk@magecore.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "bin"
+    }
+}
